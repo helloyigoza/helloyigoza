@@ -51,8 +51,8 @@ that detects stalls and self-repairs, MCP (stdio/HTTP/OAuth), LSP, plugin host, 
 ### 📈 Trading & market-microstructure systems *(private)*
 An 11-crate Rust workspace (~520k lines of Rust, ~7.3k test functions) powering a live trading
 stack: footprint/order-flow engine, indicators, backtesting, CQG + Binance + Hyperliquid
-ingestion, vectorised analytics, a Telegram ops bot, and a 55-route Axum web layer with a
-real-time charting UI. Versioned storage with manifest/segment layout instead of a monolithic database.
+ingestion, vectorised analytics, a Telegram ops bot, and an Axum web layer exposing 50+ routes
+to a real-time charting UI. Versioned storage with manifest/segment layout instead of a monolithic database.
 
 Private by design — it carries live credentials and proprietary analytics.
 
