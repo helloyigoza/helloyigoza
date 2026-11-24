@@ -49,10 +49,10 @@ that detects stalls and self-repairs, MCP (stdio/HTTP/OAuth), LSP, plugin host, 
 → [escape-system/escape-agent](https://github.com/escape-system/escape-agent) · [my fork](https://github.com/helloyigoza/escape-agent)
 
 ### 📈 Trading & market-microstructure systems *(private)*
-A 12-crate Rust workspace (~520k lines, ~7k test functions) powering a live trading stack:
-footprint/order-flow engine, indicators, backtesting, CQG + Binance + Hyperliquid ingestion,
-vectorised analytics, Telegram ops bot, and a 90+ endpoint Axum web layer with a real-time
-charting UI. Versioned storage with manifest/segment layout instead of a monolithic database.
+An 11-crate Rust workspace (~520k lines of Rust, ~7.3k test functions) powering a live trading
+stack: footprint/order-flow engine, indicators, backtesting, CQG + Binance + Hyperliquid
+ingestion, vectorised analytics, a Telegram ops bot, and a 55-route Axum web layer with a
+real-time charting UI. Versioned storage with manifest/segment layout instead of a monolithic database.
 
 Private by design — it carries live credentials and proprietary analytics.
 
