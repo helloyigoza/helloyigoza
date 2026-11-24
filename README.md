@@ -6,6 +6,9 @@
 
 [Escape Agent](https://github.com/escape-system/escape-agent) is an autonomous AI coding agent & server written in Rust, with a SolidJS web client. I'm an active member (admin) of the [escape-system](https://github.com/escape-system) organization and one of its contributors.
 
+- [escape-system/escape-agent](https://github.com/escape-system/escape-agent) — upstream (the club repo)
+- [helloyigoza/escape-agent-fud](https://github.com/helloyigoza/escape-agent-fud) — my public fork / working copy
+
 [![release](https://img.shields.io/github/v/release/escape-system/escape-agent?label=release)](https://github.com/escape-system/escape-agent/releases/latest)
 ![platforms](https://img.shields.io/badge/platforms-linux%20%7C%20windows-lightgrey)
 [![license](https://img.shields.io/badge/license-MIT-green)](https://github.com/escape-system/escape-agent/blob/main/LICENSE)
