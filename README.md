@@ -1,37 +1,38 @@
-### Hi, I'm Yigoza 👋
+# Yigoza — Full-Stack Quant Developer
 
-**I built [Escape Agent](https://github.com/escape-system/escape-agent)** — an autonomous AI coding agent and server written in Rust, with a SolidJS web client. I own and maintain it under the [escape-system](https://github.com/escape-system) organization.
+I build trading systems end to end: data pipelines, market-microstructure analytics, ML research, and the interfaces that make it all usable.
 
-**Full-stack quant developer** — Rust / Python / TypeScript. Trading systems, market microstructure, footprint/order-flow analytics, backtesting engines, and the web UIs that make the output usable.
+**Creator & maintainer of [Escape Agent](https://github.com/escape-system/escape-agent)** — an autonomous AI coding agent and server in Rust with a SolidJS web client.
 
-#### Escape Agent — my project
+[![Escape Agent release](https://img.shields.io/github/v/release/escape-system/escape-agent?label=escape-agent)](https://github.com/escape-system/escape-agent/releases/latest)
+[![License: MIT](https://img.shields.io/badge/license-MIT-green)](https://github.com/escape-system/escape-agent/blob/main/LICENSE)
 
-- [escape-system/escape-agent](https://github.com/escape-system/escape-agent) — canonical repo (org I own/admin)
-- [helloyigoza/escape-agent](https://github.com/helloyigoza/escape-agent) — my fork / working copy, visible in my repositories
+---
 
-[![release](https://img.shields.io/github/v/release/escape-system/escape-agent?label=release)](https://github.com/escape-system/escape-agent/releases/latest)
-![platforms](https://img.shields.io/badge/platforms-linux%20%7C%20windows-lightgrey)
-[![license](https://img.shields.io/badge/license-MIT-green)](https://github.com/escape-system/escape-agent/blob/main/LICENSE)
+### About
 
-```sh
-# Linux x86_64 — latest release
-curl -LO https://github.com/escape-system/escape-agent/releases/latest/download/opencode-0.3.1-linux-x86_64.tar.gz
-curl -LO https://github.com/escape-system/escape-agent/releases/latest/download/SHA256SUM
-sha256sum -c SHA256SUM --ignore-missing
-tar xzf opencode-0.3.1-linux-x86_64.tar.gz
-./opencode-0.3.1-linux-x86_64/opencode --version
-```
+- **Rust** — async services (Tokio/Axum), crash-resilient storage, agent runtimes
+- **Python** — quantitative research, feature engineering, model training
+- **TypeScript / SolidJS** — real-time dashboards and charting UIs
+- Domain: market microstructure, footprint / order-flow analytics, backtesting, cross-asset forecasting
 
-Windows x86_64 builds are published alongside; both ship `web/dist` inside the archive, next to the binary.
+### Flagship project
 
-[All releases](https://github.com/escape-system/escape-agent/releases) · [Source](https://github.com/escape-system/escape-agent)
+[**Escape Agent**](https://github.com/escape-system/escape-agent) — autonomous AI coding agent & server: multi-agent orchestration, tool sandbox, persistent memory + FTS, observer loops, MCP/LSP, plugin host, SSE streaming UI.
 
-#### What I work on
+- Canonical: [escape-system/escape-agent](https://github.com/escape-system/escape-agent)
+- My public working copy: [helloyigoza/escape-agent](https://github.com/helloyigoza/escape-agent)
 
-- **Escape Agent:** Tokio/Axum runtime, subagents & lanes, tool sandbox, SQLite+FTS memory, observer loop, MCP/LSP, plugin host, SolidJS UI.
-- **Trading systems:** CQG / Binance / Hyperliquid feeds, footprint & absorption analytics, indicators, backtest runners.
-- **Backend:** Rust, crash-resilient services, real-time SSE APIs.
-- **Frontend:** SolidJS / React dashboards, streaming chart UIs.
-- **Quant tooling:** Python research, feature pipelines, ML signal experiments.
+### Selected public work
 
-> Proprietary trading code and credential-bearing repos stay private — the public work here is the open-source parts of that stack.
+| Project | What it is |
+|---|---|
+| [deeptrade-trainer](https://github.com/helloyigoza/deeptrade-trainer) | Universal cross-asset quantile forecasting — TTM-R3 + LoRA research code |
+| [ccxt-multi-exchange-copy-trader](https://github.com/helloyigoza/ccxt-multi-exchange-copy-trader) | Multi-exchange copy-trading tooling |
+| [ichimoku-python](https://github.com/helloyigoza/ichimoku-python) | Ichimoku indicator implementation |
+| [harmonicpat-detector](https://github.com/helloyigoza/harmonicpat-detector) | Harmonic pattern detection |
+| [adaptive_band_ai](https://github.com/helloyigoza/adaptive_band_ai) | Adaptive band experiments |
+| [game-theory-llm](https://github.com/helloyigoza/game-theory-llm) | Game-theory + LLM experiments |
+| [financial-reasoning-logs](https://github.com/helloyigoza/financial-reasoning-logs) | Financial reasoning datasets/notes |
+
+Proprietary systems and credential-bearing code stay private.
